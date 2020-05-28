@@ -10,3 +10,4 @@ c=Coordinate(3,4)
 zero=Coordinate(0,0)
 print(c.distance(zero))
 
+ 
