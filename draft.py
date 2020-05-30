@@ -30,3 +30,15 @@ print(mycar.wheels)
 print(mycar.doors)
 print(mycar.color)
 print(mycar.shape)
+
+
+def set_name(self,newname=""):
+    self.name=newname
+
+a=animal(3)
+a.set_name()
+print(a.get_name())
+
+a=animal(3)
+a.set_name("fluffy")
+print(a.get_name())
