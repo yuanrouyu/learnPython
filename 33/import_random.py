@@ -35,7 +35,7 @@ class person(animal):
     def __str__(self):
         return "person:"+str(self.name)+":"+str(self.age)
 
-
+import random
 
 class student(person):
     def __init__(self,name,age,major=None):
@@ -54,4 +54,13 @@ class student(person):
         else:
             print("i am watching tv")
     def __str__(self):
-        return "student:"+str(self.name)+":"+str(self.name)+":"+str(self.major)
+        return "student:"+str(self.name)+":"+str(self.age)+":"+str(self.major)
+print("\n----student tests----")
+s1=student('alice',20,"cs")
+s2=student('beth',18)
+print(s1)
+print(s2)
+print(s1.get_name(),"says:",end="")
+s1.speak()
+print(s2.get_name(),"says:",end="")
+s2.speak()
