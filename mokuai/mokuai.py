@@ -15,6 +15,7 @@
 
 # if __name__=='__main__':
 #     test()
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -23,7 +24,5 @@
 def add(x,y):
     return x+y
 if __name__=='__main__':
-    print("计算结果是:",add(1,1))
+    print("模块计算结果是:",add(1,1))
 
-import mokuai
-print("调用模块计算:",add(8,9))
