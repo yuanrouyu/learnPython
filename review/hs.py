@@ -17,7 +17,7 @@ def power(x,n):
 print(power(2,10))
 
 
-def f2(a, b, c=0,  **kw):
+def f2(a, b, c=0,*,d,**kw):
     print('a =', a, 'b =', b, 'c =', c, 'kw =', kw)
 args = (1, 2, 3)
 kw = {'g': 88, 'x': '#'}
